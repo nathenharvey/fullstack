@@ -50,7 +50,7 @@ end
 # Start a siege against the webapp, background the process
 # This is simply to link the correct binary, due to Omnibus
 link "/usr/bin/bluepill" do
-  to "/opt/opscode/embedded/bin/bluepill"
+  to "/opt/chef/embedded/bin/bluepill"
 end
 
 template "/etc/bluepill/siege.pill" do
