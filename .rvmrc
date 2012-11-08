@@ -34,6 +34,7 @@ else
 fi
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
-export EC2_PRIVATE_KEY="$(/bin/ls ~/git/miketheman/fullstack/.aws/pk-*.pem)"
-export EC2_CERT="$(/bin/ls ~/git/miketheman/fullstack/.aws/cert-*.pem)"
-export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.5.2.5/jars"
+# Comment these out for now, need a different way to set these
+# export EC2_PRIVATE_KEY="$(/bin/ls ~/git/miketheman/fullstack/.aws/pk-*.pem)"
+# export EC2_CERT="$(/bin/ls ~/git/miketheman/fullstack/.aws/cert-*.pem)"
+# export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.5.2.5/jars"
